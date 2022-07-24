@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Languages",
+        "info": [
+            "C",
+            "C++",
+            "C#",
+            "Javascript",
+            "Python"
+        ],
+        "icon": "fa fa-code"
+    },
+    {
+        "title": "Frameworks",
+        "info": [
+            "NET Frameworks",
+            "Entity Framework",
+            "NodeJs",
+            "VueJs"
+        ],
+        "icon": "fa fa-cubes"
+    },
+    {
+        "title": "Databases",
+        "info": [
+            "MS SQL Server",
+            "Amazon Dynamodb",
+            "MongoDb"
+        ],
+        "icon": "fa fa-database"
+    },
+    {
+        "title": "Web Technologies",
+        "info": [
+            "HTML5",
+            "CSS3",
+            "Bootstrap"
+        ],
+        "icon": "fa fa-file-code"
+    },
+    {
+        "title": "Cloud",
+        "info": [
+            "AWS"
+        ],
+        "icon": "fa fa-cloud"
+    },
+    {
+        "title": "CI/CD",
+        "info": [
+            "Azure DevOps",
+            "Git",
+            "GitHub",
+            "TFS",
+            "Terraform"
+        ],
+        "icon": "fa fa-layer-group"
+    },
+    {
+        "title": "Tools",
+        "info": [
+            "Visual Studio",
+            "VS Code",
+            "Microsoft SSMS",
+            "PostMan"
+        ],
+        "icon": "fa fa-tools"
+    },
+    {
+        "title": "Tests",
+        "info": [
+            "xUnit",
+            "Moq",
+            "Jest",
+            "Cypress"
+        ],
+        "icon": "fa fa-laptop-code"
+    },
+    {
+        "title": "Others",
+        "info": [
+            "JIRA",
+            "VersionOne",
+            "OOPS",
+            "SOLID Principles",
+            "MS Office"
+        ],
+        "icon": "fa fa-list-check"
+    }
+]

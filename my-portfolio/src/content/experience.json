@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Infosys Ltd.",
+        "place": "Chennai, India",
+        "date": "Feb, 2021 - Present1",
+        "position": "Senior System Engineer",
+        "description": "",
+        "skills": [
+            "C#",
+            ".NET Core",
+            "REST APIs",
+            "AWS",
+            "VueJS",
+            "TypeSript",
+            "AngularJS",
+            "NoSQLs"
+        ]
+    },
+    {
+        "name": "Muziris Softech Pvt. Ltd.",
+        "place": "Kochi, India",
+        "date": "Jul 2018 - Feb 2021",
+        "position": "Software Programmer",
+        "description": "",
+        "skills": [
+            "C#",
+            ".NET Frameworks",
+            "Web API",
+            "JavaSript",
+            "HTML5",
+            "JQuery",
+            "MS SQL Server"
+        ]
+    }
+]

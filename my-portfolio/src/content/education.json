@@ -1,0 +1,25 @@
+[
+    {
+        "name": "University College of Engineering",
+        "place": "Dindigul, Tamil Nadu",
+        "date": "May - 2018",
+        "degree": "Bachelor in Electronics and Communications Engineering",
+        "gpa": "6.65",
+        "description": "",
+        "skills": [
+            "Python"
+        ]
+    },
+    {
+        "name": "Crescent Public School",
+        "place": "Chalakudy, Kerala",
+        "date": "May - 2014",
+        "degree": "Higher Secondary",
+        "gpa": "93.5%",
+        "description": "",
+        "skills": [
+            "C",
+            "C++"
+        ]
+    }
+]

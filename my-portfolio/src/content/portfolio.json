@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Portfolio Website",
+        "description": "",
+        "image":"./portfolio.png",
+        "tags": [
+            "VueJs",
+            "Element Plus"
+        ],
+        "demo":"https://github.com/KanishkKar/KanishkKar",
+        "source":"https://github.com/KanishkKar/KanishkKar"
+    },
+    {
+        "title": "Stock Prediction",
+        "description": "",
+        "image":"",
+        "tags": [
+            "Python",
+            "Machine Learning"
+        ],
+        "demo":"",
+        "source":""
+    },
+    {
+        "title": "Resume Builder",
+        "description": "",
+        "image":"",
+        "tags": [
+            "ReactJs",
+            "NodeJs"
+        ],
+        "demo":"",
+        "source":""
+    }
+]

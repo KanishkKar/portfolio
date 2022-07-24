@@ -1,0 +1,82 @@
+@import 'fonts/fonts.scss';
+
+/* ------ general -------*/
+body {
+  font-family: 'Poppins';
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-icon {
+  margin-left: .25rem;
+  width: 1em;
+  height: 1em;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.button-round {
+  border-radius: 20px
+}
+
+/* ------ element-plus overrides -------*/
+/* ------ root variables -------*/
+:root {
+  --el-menu-active-color: #181d20;
+  --el-menu-text-color: #89959e;
+  --el-text-color-regular: #000000;
+  --el-menu-hover-text-color: #181d20;
+  --el-menu-hover-bg-color: #E6E8EB;
+}
+
+/* ------ el-backtop -------*/
+.el-backtop {
+  --el-backtop-bg-color: #E6E8EB;
+  --el-backtop-text-color: #181d20;
+  --el-backtop-hover-bg-color: #89959e;
+}
+
+
+/* ------ el-button -------*/
+.el-button {
+  --el-button-hover-text-color: #181d20;
+  --el-button-hover-bg-color: #E6E8EB;
+  --el-button-hover-border-color: #606266;
+  --el-button-text-color: #606266;
+  --el-button-active-text-color: #181d20;
+  --border-radius: 20px
+}
+
+.el-button--info.is-plain {
+  --el-button-text-color: #606266;
+}
+
+/* ------ el-menu -------*/
+.el-menu--horizontal {
+  border-bottom: none
+}
+
+.el-menu--horizontal>.el-menu-item {
+  border-bottom: none
+}
+
+.el-menu--horizontal>.el-menu-item.is-active {
+  border-bottom: none
+}
+
+/* ------ el-carousel -------*/
+.el-carousel__arrow {
+  color: #181d20;
+}
