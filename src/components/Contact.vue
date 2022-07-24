@@ -50,9 +50,9 @@
               Phone
               <i class="fa fa-phone" style="margin:0 3px"></i>
               :
-              <a class="link" :href="`tel:${contact.phone}`" target="_blank" rel="noopener noreferrer">
+              <span style="margin:0 5px">
                 {{ contact.phone }}
-              </a>
+              </span>
             </p>
           </div>
         </el-col>

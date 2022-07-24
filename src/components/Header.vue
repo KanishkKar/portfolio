@@ -4,7 +4,7 @@
         <el-affix target=".nav" position="top" :offset="10">
             <el-menu :default-active="activeIndex" class="el-menu" mode="horizontal" :ellipsis="false">
                 <el-menu-item style="--el-menu-hover-bg-color:Transparent" index="0">
-                    <el-image style="width: 60px; height: 60px" src="./kk.jpg" />
+                    <el-image style="width: 60px; height: 60px" src="./logo.png" />
                 </el-menu-item>
                 <el-menu-item index="1"><a href='#home' class="nav-link">Home</a></el-menu-item>
                 <el-menu-item index="2"><a href='#about' class="nav-link">About</a></el-menu-item>
