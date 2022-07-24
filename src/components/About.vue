@@ -1,16 +1,16 @@
 <template>
   <div class="container">
-    <div class="justify-center">
+    <div class="text-center">
       <h1>About Me</h1>
     </div>
     <div>
-      <el-row :gutter="20">
-        <el-col :span="9" :offset="3">
+      <el-row justify="center" :gutter="20">
+        <el-col style="margin:0 2em 0 0" :md="8">
           <div>
             <Timeline :data="education" />
           </div>
         </el-col>
-        <el-col :span="8">
+        <el-col style="margin:0 2em 0 0" :md="8">
           <div>
             <Timeline :data="experience" />
           </div>

@@ -1,11 +1,11 @@
 <template>
-  <div class="justify-center">
+  <div class="text-center" style="margin:2em">
     <h1>Skills</h1>
   </div>
   <div>
-    <el-row class="justify-center" :gutter="21">
-      <el-col class="text-center" :span="7" v-for="(skill) in skills" :key="skill.title">
-        <div style="padding:2em 3em 2em">
+    <el-row justify="center" align="middle">
+      <el-col  style="margin-bottom: 2em;" class="text-center" :xs="12" :sm="8" v-for="(skill) in skills" :key="skill.title">
+        <div >
           <div><i :class="skill.icon"></i></div>
           <h3>{{ skill.title }}</h3>
           <hr width="50%" />

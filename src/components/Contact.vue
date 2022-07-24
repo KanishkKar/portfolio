@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="container">
-      <div class="justify-center">
+      <div class="text-center" style="margin:2em">
         <h1>Contact</h1>
       </div>
       <div>
-        <el-row :gutter="20">
-          <el-col :span="10" :offset="7">
+        <el-row justify="center" align="middle">
+          <el-col :xs="22" :sm="12" :md="10">
             <el-form :rules="rules" :model="form" ref="formRef">
               <el-form-item prop="name">
                 <el-input v-model="form.name" placeholder="Name" />
@@ -19,20 +19,20 @@
               </el-form-item>
               <el-form-item>
                 <el-button type="info" class="button-round" @click="sendEmail(formRef)" plain>
-                  Submit<i class="fa fa-paper-plane" style="margin-left:5px"></i>
+                  Submit<i class="fa fa-paper-plane" style="margin-left:.3em"></i>
                 </el-button>
               </el-form-item>
             </el-form>
           </el-col>
         </el-row>
       </div>
-      <el-row :gutter="20">
-        <el-col :span="10" :offset="7">
+      <el-row justify="center" align="middle">
+        <el-col :xs="22" :sm="12" :md="10">
           <div>
             <hr />
             <p>
               Location
-              <i class="fa fa-location-dot" style="margin:0 3px"></i>
+              <i class="fa fa-location-dot" style="margin:0 .3em"></i>
               :
               <span style="margin:0 5px">
                 {{ contact.location }}
@@ -40,7 +40,7 @@
             </p>
             <p>
               Email
-              <i class="fa fa-envelope" style="margin:0 3px"></i>
+              <i class="fa fa-envelope" style="margin:0 .3em"></i>
               :
               <a class="link" :href="`mailto:${contact.mail}`" target="_blank" rel="noopener noreferrer">
                 {{ contact.mail }}
@@ -48,7 +48,7 @@
             </p>
             <p>
               Phone
-              <i class="fa fa-phone" style="margin:0 3px"></i>
+              <i class="fa fa-phone" style="margin:0 .3em"></i>
               :
               <span style="margin:0 5px">
                 {{ contact.phone }}
@@ -89,9 +89,9 @@ async function sendEmail(formEl) {
   if (!formEl) return
   await formEl.validate((valid, fields) => {
     if (valid) {
-      console.log('submit!')
+      console.log('Sending e-mail!')
     } else {
-      console.log('error submit!', fields)
+      console.log('Error sending e-mail!', fields)
     }
   })
 }

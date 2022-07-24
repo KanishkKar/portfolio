@@ -1,13 +1,13 @@
 <template>
-  <div class="about">
-    <el-row :gutter="20">
-      <el-col :span="7">
-        <div class="justify-center" style="margin-top: 10%">
+  <div class="home">
+    <el-row justify="center" align="middle" :gutter="10">
+      <el-col :xs="{ span: 18 }" :sm="{ span: 9 }" :md="{ span: 6 }">
+        <div style="margin: 2em 2em 2em 0">
           <el-avatar :src="about.image"></el-avatar>
         </div>
       </el-col>
-      <el-col :span="13">
-        <div>
+      <el-col :sm="{ span: 15 }" :md="{ span: 12 }">
+        <div style="margin-right: 2em">
           <h1>{{ about.fullname }}</h1>
           <h4 style="color:#89959e">{{ about.designation }}</h4>
           <div>
@@ -20,8 +20,8 @@
             <p>
               {{ about.workingOn }}
             </p>
-            <el-row :gutter="18">
-              <el-col :span="6" v-for="value in about.skills" :key="value">
+            <el-row :gutter="10">
+              <el-col :span="8" v-for="value in about.skills" :key="value">
                 <details disabled>
                   <summary>
                     {{ value }}
@@ -30,7 +30,7 @@
               </el-col>
             </el-row>
           </div>
-          <div style="margin-top:2rem">
+          <div style="margin:2rem 1em 2em 0 ">
             <el-button size="large" type="info" class="button-round" plain>
               <a href='#portfolio' class="nav-link">Portfolio</a>
             </el-button>
@@ -53,6 +53,7 @@ const about = ref(json)
 
 <style scoped>
 .el-avatar {
+  --el-avatar-bg-color: #000000;
   --el-avatar-size: 250px;
 }
 

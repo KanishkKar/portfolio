@@ -1,7 +1,7 @@
 <template>
     <div>
-        <el-row class="content-baseline" :gutter="20">
-            <el-col :span="12">
+        <el-row justify="start" align="bottom" :gutter="20">
+            <el-col :xs="18" :sm="18">
                 <div>
                     <span style="font-size: 80%;">
                         Designed and developed with
@@ -10,21 +10,21 @@
                     </span>
                 </div>
             </el-col>
-            <el-col :span="2" :offset="6">
+            <el-col :xs="2" :sm="2">
                 <div>
                     <a class="nav-link" :href="contact.gitHub" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-github-square"></i>
                     </a>
                 </div>
             </el-col>
-            <el-col :span="2">
+            <el-col :xs="2" :sm="2">
                 <div>
                     <a class="nav-link" :href="contact.linkedIn" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
             </el-col>
-            <el-col :span="2">
+            <el-col :xs="2" :sm="2">
                 <div>
                     <a class="nav-link" :href="`mailto:${contact.mail}`" target="_blank" rel="noopener noreferrer">
                         <i class="fa-solid fa-envelope"></i>
