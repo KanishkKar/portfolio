@@ -17,21 +17,21 @@
                 </el-row>
                 <el-row justify="center" align="middle">
                     <el-col :xs="6" :sm="5" style="margin:0 .5em 1em 0;">
-                        <el-button class="button-round" type="info" plain>
+                        <el-button class="button-round" type="info" size="small" plain>
                             <a class="nav-link" :href="data.demo" target="_blank" rel="noopener noreferrer">
                                 Demo<i class="fa fa-arrow-up-right-from-square" style="margin-left:.3em"></i>
                             </a>
                         </el-button>
                     </el-col>
                     <el-col :xs="6" :sm="5" style="margin:0 .5em 1em 0;">
-                        <el-button class="button-round" type="info" plain>
+                        <el-button class="button-round" type="info" size="small" plain>
                             <a class="nav-link" :href="data.source" target="_blank" rel="noopener noreferrer">
                                 Sorce<i class="fa fa-arrow-up-right-from-square" style="margin-left:.3em"></i>
                             </a>
                         </el-button>
                     </el-col>
                     <el-col :xs="6" :sm="5" style="margin:0 .5em 1em 0;">
-                        <el-button class="button-round" type="info" plain>
+                        <el-button class="button-round" type="info" size="small" plain>
                             Read More
                         </el-button>
                     </el-col>
