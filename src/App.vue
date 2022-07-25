@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div id="app">
-      <el-backtop :right="100" :bottom="100"></el-backtop>
+      <el-backtop></el-backtop>
       <el-container>
         <el-header>
           <Header></Header>

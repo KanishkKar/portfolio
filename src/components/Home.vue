@@ -1,12 +1,12 @@
 <template>
   <div class="home">
     <el-row justify="center" align="middle" :gutter="10">
-      <el-col :xs="{ span: 18 }" :sm="{ span: 9 }" :md="{ span: 6 }">
-        <div style="margin: 2em 2em 2em 0">
+      <el-col :sm="{ span: 10 }" :md="{ span: 6 }">
+        <div style="margin: 2em">
           <el-avatar :src="about.image"></el-avatar>
         </div>
       </el-col>
-      <el-col :sm="{ span: 15 }" :md="{ span: 12 }">
+      <el-col :sm="{ span: 14 }" :md="{ span: 12 }">
         <div style="margin-right: 2em">
           <h1>{{ about.fullname }}</h1>
           <h4 style="color:#89959e">{{ about.designation }}</h4>
