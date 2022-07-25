@@ -7,12 +7,12 @@
       <el-row justify="center" :gutter="20">
         <el-col style="margin:0 2em 0 0" :md="8">
           <div>
-            <Timeline :data="education" />
+            <Timeline :data="experience" />
           </div>
         </el-col>
         <el-col style="margin:0 2em 0 0" :md="8">
           <div>
-            <Timeline :data="experience" />
+            <Timeline :data="education" />
           </div>
         </el-col>
       </el-row>

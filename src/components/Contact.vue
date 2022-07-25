@@ -6,7 +6,7 @@
       </div>
       <div>
         <el-row justify="center" align="middle">
-          <el-col :xs="22" :sm="12" :md="10">
+          <el-col :xs="24" :sm="12" :md="10">
             <el-form :rules="rules" :model="form" ref="formRef">
               <el-form-item prop="name">
                 <el-input v-model="form.name" placeholder="Name" />
@@ -27,8 +27,8 @@
         </el-row>
       </div>
       <el-row justify="center" align="middle">
-        <el-col :xs="22" :sm="12" :md="10">
-          <div>
+        <el-col :xs="24" :sm="12" :md="10">
+          <div class="contact-details">
             <hr />
             <p>
               Location
@@ -103,5 +103,9 @@ async function sendEmail(formEl) {
   color: #181d20;
   text-decoration-color: #181d20;
   margin: 0 5px
+}
+
+.contact-details{
+  font-size: .90rem;
 }
 </style>

@@ -3,16 +3,21 @@
         <h1>Portfolio</h1>
     </div>
     <div>
-        <el-carousel class="hidden-sm-and-down" trigger="click" type="card" :autoplay="false" indicator-position="none" height="515px">
-            <el-carousel-item v-for="item in portfolio" :key="item.title">
-                <Projects :data="item"></Projects>
-            </el-carousel-item>
-        </el-carousel>
-        <el-row class="hidden-md-and-up" justify="center" align="middle" v-for="item in portfolio" :key="item.title">
-            <el-col>
-                <Projects :data="item"></Projects>
-            </el-col>
-        </el-row>
+        <div class="hidden-sm-and-down">
+            <el-carousel trigger="click" type="card" :autoplay="false" indicator-position="none" height="515px">
+                <el-carousel-item v-for="item in portfolio" :key="item.title">
+                    <Projects :data="item"></Projects>
+                </el-carousel-item>
+            </el-carousel>
+        </div>
+        <div class="hidden-md-and-up">
+            <el-row justify="center" align="middle" v-for="item in portfolio" :key="item.title">
+                <el-col>
+                    <Projects :data="item"></Projects>
+                </el-col>
+            </el-row>
+
+        </div>
     </div>
 </template>
 
