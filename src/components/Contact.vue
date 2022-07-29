@@ -9,13 +9,13 @@
           <el-col :xs="24" :sm="12" :md="10">
             <el-form :rules="rules" :model="form" ref="formRef">
               <el-form-item prop="name">
-                <el-input v-model="form.name" placeholder="Name" />
+                <el-input v-model="form.name" placeholder="Name" size="large"/>
               </el-form-item>
               <el-form-item prop="email">
-                <el-input v-model="form.email" type="email" placeholder="E-mail" />
+                <el-input v-model="form.email" type="email" placeholder="E-mail" size="large" />
               </el-form-item>
               <el-form-item prop="text">
-                <el-input type="textarea" rows="4" v-model="form.text" placeholder="Message" />
+                <el-input type="textarea" rows="4" v-model="form.text" placeholder="Message" size="large"/>
               </el-form-item>
               <el-form-item>
                 <el-button type="info" class="button-round" @click="sendEmail(formRef)" plain>
@@ -29,7 +29,7 @@
       <el-row justify="center" align="middle">
         <el-col :xs="24" :sm="12" :md="10">
           <div class="contact-details">
-            <hr />
+            <el-divider />
             <p>
               Location
               <i class="fa fa-location-dot" style="margin:0 .3em"></i>

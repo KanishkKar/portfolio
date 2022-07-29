@@ -4,13 +4,13 @@
   </div>
   <div>
     <el-row justify="center" align="middle">
-      <el-col  style="margin-bottom: 2em;" class="text-center" :xs="12" :sm="8" v-for="(skill) in skills" :key="skill.title">
-        <div >
+      <el-col class="text-center" :xs="12" :sm="12" :md="8" v-for="(skill) in skills" :key="skill.title">
+        <el-card :body-style="{ padding: '0px' }" shadow="never" class="skills">
           <div><i :class="skill.icon"></i></div>
           <h3>{{ skill.title }}</h3>
-          <hr width="50%" />
+          <el-divider/>
           <span>{{ skill.info.join(", ") }}</span>
-        </div>
+        </el-card>
       </el-col>
     </el-row>
   </div>
@@ -23,5 +23,24 @@ import skills from "../content/skills.json";
 <style scoped>
 .fa {
   font-size: 40px;
+}
+
+.skills {
+  height: 240px;
+}
+
+.el-card {
+  --el-card-border-color: none;
+  --el-card-border-radius: none;
+}
+
+.el-divider {
+  text-align: center;
+}
+
+.el-divider--horizontal {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
