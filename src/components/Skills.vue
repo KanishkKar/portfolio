@@ -34,6 +34,10 @@ import skills from "../content/skills.json";
   --el-card-border-radius: none;
 }
 
+html.dark .el-card {
+  background-color: #141414
+}
+
 .el-divider {
   text-align: center;
 }

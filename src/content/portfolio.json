@@ -5,7 +5,8 @@
         "image":"./portfolio.png",
         "tags": [
             "VueJs",
-            "Element Plus"
+            "Element Plus",
+            "EmailJs"
         ],
         "demo":"https://kanishkkar.github.io/portfolio/",
         "source":"https://github.com/KanishkKar/portfolio"

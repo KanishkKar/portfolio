@@ -16,6 +16,10 @@
             </el-menu-item>
             <div class="flex-grow"></div>
             <el-menu-item style="--el-menu-hover-bg-color:Transparent" index="6">
+                <el-switch v-model="darkMode" @change="toggleDark()" inline-prompt :active-icon="Moon"
+                    :inactive-icon="Sunny" style="--el-switch-on-color: #c2c2c2; margin: 1em .5em .5em .5em" />
+            </el-menu-item>
+            <el-menu-item style="--el-menu-hover-bg-color:Transparent" index="7">
                 <el-button style="margin: .5em" size="large" round>
                     <a class="nav-link" :href="resumeUrl" download="Kanishkar_Marimuthu_Resume">
                         Resume <i class="fa fa-download" style="margin-left:.3em"></i>
@@ -28,8 +32,12 @@
         
 <script setup>
 import { ref } from 'vue'
+import { toggleDark, isDark } from '../composables/dark';
+import { Sunny, Moon } from '@element-plus/icons-vue'
 
 const activeIndex = ref('1')
+console.log(isDark.value)
+const darkMode = ref( isDark.value ? true : false)
 const resumeUrl = ref('./Kanishkar_Marimuthu_Resume.pdf')
 </script>
 

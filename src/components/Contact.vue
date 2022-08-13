@@ -131,12 +131,6 @@ async function sendEmail(formEl) {
 </script>
 
 <style scoped>
-.link {
-  color: #181d20;
-  text-decoration-color: #181d20;
-  margin: 0 5px
-}
-
 .contact-details {
   font-size: .90rem;
 }

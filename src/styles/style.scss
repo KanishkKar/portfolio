@@ -22,6 +22,12 @@ body {
   fill: currentColor;
 }
 
+.link {
+  color: #181d20;
+  text-decoration-color: #181d20;
+  margin: 0 5px
+}
+
 .button-round {
   border-radius: 20px
 }
@@ -42,7 +48,6 @@ body {
   --el-backtop-text-color: #181d20;
   --el-backtop-hover-bg-color: #89959e;
 }
-
 
 /* ------ el-button -------*/
 .el-button {
@@ -74,4 +79,20 @@ body {
 /* ------ el-carousel -------*/
 .el-carousel__arrow {
   color: #181d20;
+}
+
+/* -------- Dark mode --------- */
+html.dark {
+  --el-menu-active-color: #ffffff;
+  --el-menu-hover-bg-color: #909399;
+}
+
+html.dark .el-button--info.is-plain {
+  --el-button-text-color: #F0F2F5;
+}
+
+html.dark .link {
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+  margin: 0 5px
 }

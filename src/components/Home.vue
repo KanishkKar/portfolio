@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <el-row justify="center" align="middle" :gutter="10">
-      <el-col :sm="{ span: 10 }" :md="{ span: 6 }">
+      <el-col :sm="{ span: 10 }">
         <div style="margin: 2em">
           <el-avatar :src="about.image"></el-avatar>
         </div>
